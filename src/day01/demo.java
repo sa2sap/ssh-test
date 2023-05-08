@@ -35,11 +35,17 @@ public class demo {
     }
 
     @Test
-    public void test05(){
+    public void test05() {
         System.out.println("hot-fix分支合并冲突测试2.0");
     }
+
     @Test
-    public void test06(){
+    public void test06() {
         System.out.println("master分支提交2.0");
+    }
+
+    @Test
+    public void test07() {
+        System.out.println("master分支提交3.0");
     }
 }
