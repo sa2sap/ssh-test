@@ -33,9 +33,14 @@ public class demo {
     public void test04() {
         System.out.println("分支切换测试");
     }
-    
+
     @Test
     public void test05() {
         System.out.println("pul代码测试");
+    }
+
+    @Test
+    public void test06() {
+        System.out.println("提交代码测试");
     }
 }
