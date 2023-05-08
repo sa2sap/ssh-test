@@ -33,4 +33,8 @@ public class demo {
     public void test04() {
         System.out.println("分支切换测试");
     }
+    @Test
+    public void test05(){
+        System.out.println("master分支提交1.0");
+    }
 }
