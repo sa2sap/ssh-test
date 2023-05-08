@@ -33,4 +33,9 @@ public class demo {
     public void test04() {
         System.out.println("分支切换测试");
     }
+
+    @Test
+    public void test05(){
+        System.out.println("hot-fix分支合并冲突测试");
+    }
 }
