@@ -23,4 +23,9 @@ public class demo {
         map.put("2","5");
     }
 
+    @Test
+    public void test03(){
+        System.out.println("版本切换测试");
+    }
+
 }
