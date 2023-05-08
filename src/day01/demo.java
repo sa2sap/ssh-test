@@ -43,4 +43,8 @@ public class demo {
     public void test06() {
         System.out.println("提交代码测试");
     }
+     @Test
+    public void test07() {
+        System.out.println("码云测试");
+    }
 }
