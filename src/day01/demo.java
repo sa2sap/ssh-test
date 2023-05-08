@@ -40,6 +40,6 @@ public class demo {
     }
     @Test
     public void test06(){
-        System.out.println("master分支提交1.0");
+        System.out.println("master分支提交2.0");
     }
 }
