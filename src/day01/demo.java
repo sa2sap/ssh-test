@@ -10,22 +10,27 @@ import java.util.Map;
 
 public class demo {
     @Test
-    public void test01(){
+    public void test01() {
         String abc = new String("abc");
-        String c=abc;
+        String c = abc;
 //        c="789";
-        System.out.println(abc==c);
-    }
-    @Test
-    public void test02(){
-        final Dog dog = new Dog();
-        final Map<String, String> map = new HashMap<>();
-        map.put("2","5");
+        System.out.println(abc == c);
     }
 
     @Test
-    public void test03(){
+    public void test02() {
+        final Dog dog = new Dog();
+        final Map<String, String> map = new HashMap<>();
+        map.put("2", "5");
+    }
+
+    @Test
+    public void test03() {
         System.out.println("版本切换测试");
     }
 
+    @Test
+    public void test04() {
+        System.out.println("分支切换测试");
+    }
 }
