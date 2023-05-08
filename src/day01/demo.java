@@ -36,6 +36,6 @@ public class demo {
 
     @Test
     public void test05(){
-        System.out.println("hot-fix分支合并冲突测试");
+        System.out.println("hot-fix分支合并冲突测试2.0");
     }
 }
